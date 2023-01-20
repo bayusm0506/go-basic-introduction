@@ -19,4 +19,16 @@ func main() {
 	fmt.Println("Name : ", s1.person.name)
 	fmt.Println("Age : ", s1.person.age)
 	fmt.Println("Grade : ", s1.grade)
+
+	var s2 = struct {
+		person
+		grade int
+	}{
+		person: person{"Doe", 22},
+		grade:  2,
+	}
+
+	fmt.Println("Name : ", s2.person.name)
+	fmt.Println("Age : ", s2.person.age)
+	fmt.Println("Grade : ", s2.grade)
 }
