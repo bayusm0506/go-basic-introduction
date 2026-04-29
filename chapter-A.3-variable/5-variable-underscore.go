@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	_ = "Learn Golang"
 	_ = "Golang is not complicated"
-	name, _ := "Jhon", "Rambo"
+	name, _ := "Bayu", "Setra"
 
 	fmt.Println(name)
 }

@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var firstName string = "Jhon"
+	var firstName string = "Bayu"
 
 	var lastName string
-	lastName = "Rambo"
+	lastName = "Setra"
 
 	fmt.Printf("Hello %s %s!\n", firstName, lastName)
 }
