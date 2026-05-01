@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	const firstName string = "Jhon"
+	const firstName string = "Bayu"
 	fmt.Print("Hello ", firstName, "!\n")
 
 	const lastName string = "Doe"
